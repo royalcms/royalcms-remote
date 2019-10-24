@@ -25,6 +25,15 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.0-dev"
+        },
+        "royalcms": {
+            "providers": [
+                "Royalcms\\Component\\Remote\\RemoteServiceProvider"
+            ],
+            "aliases": {
+                "RC_Remote": "Royalcms\\Component\\Remote\\Facades\\Remote",
+                "RC_SSH": "Royalcms\\Component\\Remote\\Facades\\SSH"
+            }
         }
     },
     "minimum-stability": "dev"
